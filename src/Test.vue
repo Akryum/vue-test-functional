@@ -4,15 +4,18 @@
     <p>{{ message }}</p>
     <input v-model="message" />
     <Functional />
+    <FunctionalJSX />
   </div>
 </template>
 
 <script>
 import Functional from './Functional.vue'
+import FunctionalJSX from './FunctionalJSX.vue'
 
 export default {
   components: {
     Functional,
+    FunctionalJSX,
   },
 
   data () {
