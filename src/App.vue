@@ -5,16 +5,19 @@
     <h2>Essential Links</h2>
     <p>Functional components</p>
     <Test/>
+    <Test2/>
   </div>
 </template>
 
 <script>
 import Test from './Test.vue'
+import Test2 from './Test2.vue'
 
 export default {
   name: 'app',
   components: {
     Test,
+    Test2,
   },
 }
 </script>
